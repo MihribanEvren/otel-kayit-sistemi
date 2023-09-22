@@ -1,0 +1,86 @@
+body {
+    background-color: #FFD3B4;
+    color: #000;
+}
+
+
+button {
+    background-color: #FFAAA7;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+.container h2 {
+    text-align: center;
+}
+
+.form label {
+    display: block;
+    color: #000;
+    margin-bottom: 5px; 
+}
+
+.form input[type="text"],
+.form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form button[type="submit"] {
+    background-color: #FFAAA7;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#customer-create h2 {
+    float: right;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+}
+
+table, th, td {
+    border: 1px solid #98DDCA;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+#search {
+    margin-bottom: 20px;
+}
+
+#search label {
+    color: #000;
+}
+
+#search button {
+    background-color: #98DDCA;
+    color: #000;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
